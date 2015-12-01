@@ -1,0 +1,295 @@
+{
+  "tags": [
+    {
+      "tag": ".apparel-design",
+      "name": "Apparel Design"
+    },
+    {
+      "tag": ".merchandising",
+      "name": "Merchandising"
+    },
+    {
+      "tag": ".nutrition",
+      "name": "Nutrition"
+    },
+    {
+      "tag": ".hr",
+      "name": "Hotel & Restaurant"
+    },
+    {
+      "tag": ".hdfs",
+      "name": "Human Development & Family Science"
+    },
+    {
+      "tag": ".interior-design",
+      "name": "Interior Design"
+    }
+
+  ],
+  "items": [
+    {
+      "title": "Searching for: Assistant Designer & Sourcing Manager",
+      "subtitle": "about.nordstrom.com/careers",
+      "url": "http://about.nordstrom.com/careers",
+      "tag": "merchandising apparel-design",
+      "thumb": "assets/companies/nordstrom_logo.png",
+      "logo": "assets/companies/nordstrom_logo.png",
+      "images": "assets/companies/nordstrom_headquarters.png,assets/companies/nordstrom_bus_fash.png,assets/companies/nordstrom_interns.png",
+      "topText": "We believe in rewarding outstanding work, promoting from within and building long-term relationships with our employees. Our culture makes all of these things possible. It’s fun, supportive, competitive and a great place to grow your career. At Nordstrom, we like to keep things simple. We have one goal: Make customers feel good. Whether we’re helping a bride find the perfect dress or teaching a group of kids to tie their shoes, we're focused on creating long-lasting relationships with our customers.",
+      "bottomText": "Whether a career in fashion has always been your calling or you're still tinkering with the idea, Nordstrom is a great place to start your career. You'll learn our business, earn a competitive salary and receive an awesome merchandise discount. Applications for our 2016 program will be posted in early December. Want more information about our program? Email us!"
+    },
+    {
+      "title": "Allocation Analyst Needed",
+      "subtitle": "http://careers.dillards.com",
+      "url": "http://careers.dillards.com",
+      "tag": "merchandising",
+      "thumb": "assets/companies/dillards.png",
+      "logo": "assets/companies/dillards.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "We are committed to the selection, growth and development of talented people from both within and outside the Company to meet our current and future needs. When you become a member of our Team, you'll be trained for your position and offered excellent development programs to enhance your skills for further development.If your college career is near the end and you're looking to be developed, challenged, and valued, Waldorf Astoria New York is the hotel for you. Each year, The Waldorf Astoria recruits the best and the brightest from major hospitality schools nationally. We look for individuals who are eager, enthusiastic, mature, and service-oriented. If this is you, we invite you to see what we have to offer.",
+      "bottomText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu. Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat"
+    },
+    {
+      "title": "Technical Designers Needed",
+      "subtitle": "dkny.com/careers/html",
+      "url": "http://www.dkny.com/careers.html",
+      "tag": "apparel-design",
+      "thumb": "assets/companies/dkny.png",
+      "logo": "assets/companies/dkny.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.",
+      "bottomText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu. Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat"
+    },
+    {
+      "title": "CAD Specialist Position Available",
+      "subtitle": "http://jobs.jcp.com",
+      "url": "http://jobs.jcp.com",
+      "tag": "apparel-design",
+      "thumb": "assets/companies/jc_penny.png",
+      "logo": "assets/companies/jc_penny.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Teachers needed for K Through 12th!",
+      "subtitle": "teachforamerica.org/about-us/careers",
+      "url": "teachforamerica.org/about-us/careers",
+      "tag": "hdfs",
+      "thumb": "assets/companies/teach_america_logo.png",
+      "logo": "assets/projects/company-logo.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Merchandising & Interior Design Interns Needed",
+      "subtitle": "http://cabelas.jobs",
+      "url": "http://cabelas.jobs",
+      "tag": "merchandising interior-design",
+      "thumb": "assets/companies/cabelas.png",
+      "logo": "assets/projects/cabelas.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Doctors needed with an undergraduate Degree in Nutrition",
+      "subtitle": "OU Medical Center",
+      "url": "https://www.oumedicine.com/oumedicalcenter/career-center/yes-i-can",
+      "tag": "nutrition",
+      "thumb": "assets/companies/ou_medical_center.png",
+      "logo": "assets/projects/company-logo.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Designers and Merchandisers wanted!",
+      "subtitle": "Careers.Walmart.com",
+      "url": "walmart.com",
+      "tag": "apparel-design merchandising interior-design",
+      "thumb": "assets/companies/walmart.png",
+      "logo": "assets/projects/company-logo.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Food Service Manager Position Available",
+      "subtitle": "keystonefoodservice.com/index.php?job-openings",
+      "url": "http://www.keystonefoodservice.com/index.php?job-openings",
+      "tag": "hr nutrition",
+      "thumb": "assets/companies/keystone.png",
+      "logo": "assets/projects/keystone.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Nutritionist Interns Needed",
+      "subtitle": "www.occhd.org/about/employment-opportunities",
+      "url": "https://www.occhd.org/about/employment-opportunities",
+      "tag": "nutrition",
+      "thumb": "assets/companies/okc_county.png",
+      "logo": "assets/projects/okc_county.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Youth Minister Needed",
+      "subtitle": "http://www.deaconessadoption.org",
+      "url": "http://www.deaconessadoption.org",
+      "tag": "hdfs",
+      "thumb": "assets/companies/pregnancy.png",
+      "logo": "assets/projects/pregnancy.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Camp Director Needed",
+      "subtitle": "http://skyranch.org/jobs/",
+      "url": "http://skyranch.org/jobs/",
+      "tag": "hdfs",
+      "thumb": "assets/companies/sky.png",
+      "logo": "assets/projects/sky.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Teachers Needed",
+      "subtitle": "http://www.santafesouth.org",
+      "url": "http://www.santafesouth.org",
+      "tag": "hdfs",
+      "thumb": "assets/companies/santa_fe.png",
+      "logo": "assets/projects/santa_fe.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Lighting Designer Needed",
+      "subtitle": "http://www.interprisedesign.com ",
+      "url": "http://www.interprisedesign.com ",
+      "tag": "interior-design",
+      "thumb": "assets/companies/interprise.png",
+      "logo": "assets/projects/interprise.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Interior Merchandising Interns Needed",
+      "subtitle": "www.williams-sonoma.com",
+      "url": "www.williams-sonoma.com",
+      "tag": "merchandising",
+      "thumb": "assets/companies/williams_sonoma.png",
+      "logo": "assets/projects/williams_sonoma.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Interior Designers Wanted",
+      "subtitle": "http://www.interface.com/US/en-US/global",
+      "url": "http://www.interface.com/US/en-US/global",
+      "tag": "interior-design",
+      "thumb": "assets/companies/interface.png",
+      "logo": "assets/projects/interface.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Alumni with a degree in Interior Merchandising Needed",
+      "subtitle": "www.crateandbarrel.com",
+      "url": "www.crateandbarrel.com",
+      "tag": "merchandising",
+      "thumb": "assets/companies/crate_barrel.png",
+      "logo": "assets/projects/crate_barrel.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Early Childhood Educators Needed",
+      "subtitle": "http://www.riverfield.org",
+      "url": "http://www.riverfield.org",
+      "tag": "hdfs",
+      "thumb": "assets/companies/riverfield.png",
+      "logo": "assets/projects/riverfield.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Childcare Givers Needed!",
+      "subtitle": "http://humansciences.okstate.edu/hdfs/cdl/",
+      "url": "http://humansciences.okstate.edu/hdfs/cdl/",
+      "tag": "hdfs",
+      "thumb": "assets/companies/child_development.png",
+      "logo": "assets/projects/child_development.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Apparel Merchandisers & Designers Wanted for Internship Experience",
+      "subtitle": "http://www.eskimojoes.com",
+      "url": "http://www.eskimojoes.com",
+      "tag": "apparel-design merchandising",
+      "thumb": "assets/companies/eskimo.png",
+      "logo": "assets/projects/eskimo.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Hotel Management Wanted",
+      "subtitle": "http://www.broadmoor.com/broadmoor-careers/",
+      "url": "http://www.broadmoor.com/broadmoor-careers/",
+      "tag": "hr",
+      "thumb": "assets/companies/broadmoor.png",
+      "logo": "assets/projects/broodmoor.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Alumni with a Degree in Hotel & Restaurant Needed!",
+      "subtitle": "http://www.marriott.com/default.mi",
+      "url": "http://www.marriott.com/default.mi",
+      "tag": "hr",
+      "thumb": "assets/companies/marriott.png",
+      "logo": "assets/projects/marriott.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Resort Manager Needed!",
+      "subtitle": "http://www.tan-tar-a.com/",
+      "url": "http://www.tan-tar-a.com/",
+      "tag": "hr",
+      "thumb": "assets/companies/tan_tara.png",
+      "logo": "assets/projects/tan_tara.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    },
+    {
+      "title": "Family Therapist Wanted",
+      "subtitle": "http://www.sdvs.org/",
+      "url": "http://www.sdvs.org/",
+      "tag": "hdfs",
+      "thumb": "assets/companies/woh.png",
+      "logo": "assets/projects/woh.png",
+      "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
+      "topText": "Hello world! This is some amazing text!",
+      "bottomText": "This text will go at the bottom of the company logo!"
+    }
+  ]
+}

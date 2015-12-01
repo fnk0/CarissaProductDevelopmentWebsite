@@ -1,0 +1,681 @@
+﻿<!DOCTYPE html>
+<html lang="en-US" class="no-js" ng-app="WebApp">
+<head>
+
+    <!-- ==============================================
+    Title and Meta Tags
+    =============================================== -->
+    <meta charset="utf-8">
+    <title>DesignR | Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- ==============================================
+    Favicons
+    =============================================== -->
+    <link rel="shortcut icon" href="assets/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/apple-touch-icon-114x114.png">
+
+    <!-- ==============================================
+    CSS
+    =============================================== -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/designr-theme-orange.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- ==============================================
+    Fonts
+    =============================================== -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900'
+          rel='stylesheet' type='text/css'>
+
+    <!-- ==============================================
+    JS
+    =============================================== -->
+
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="js/libs/modernizr.min.js"></script>
+
+
+</head>
+
+<body data-spy="scroll" data-target="#main-nav" data-offset="200" ng-controller="AppController">
+
+<!--=== PAGE PRELOADER ===-->
+<div id="page-loader"><span class="page-loader-gif"></span></div>
+
+<!-- ==============================================
+MAIN NAV
+=============================================== -->
+<div id="main-nav" class="navbar navbar-fixed-top">
+    <div class="container">
+
+        <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+                <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+
+            <!-- ======= LOGO ========-->
+            <!--<a class="navbar-brand scrollto" href="#home">Now That I'm Grown Up<br><span>A Career Finding Website</span></a>-->
+            <a class="navbar-brand scrollto ir-logo" href="#">Now That I'm Grown
+                Up<br><span>A College of Human Sciences Career Finding Website Supported by Oklahoma State University</span></a>
+
+        </div>
+
+        <div id="site-nav" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="sr-only">
+                    <a href="#home" class="scrollto">Home</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="scrollto">Companies Hiring</a>
+                </li>
+                <li>
+                    <a href="#services" class="scrollto">What we do</a>
+                </li>
+                <li>
+                    <a href="#about" class="scrollto">About Us</a>
+                </li>
+                <li>
+                    <a href="#skills" class="scrollto">Reviews</a>
+                </li>
+                <li>
+                    <a href="#contact" class="scrollto">Contact Us</a>
+                </li>
+
+                <li>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="http://www.jquery2dotnet.com" class="dropdown-toggle" data-toggle="dropdown">Sign in <b class="caret"></b></a>
+                            <ul class="dropdown-menu" style="padding: 15px;min-width: 250px;">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="exampleInputPassword2">Password</label>
+                                                    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label style="color: black;">
+                                                        <input type="checkbox"> Remember me
+                                                    </label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <button type="submit" class="btn btn-warning btn-block">Sign in</button>
+                                                    <button type="submit" class="btn btn-primary btn-block">New User? Register</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <input class="btn btn-danger btn-block" type="button" id="sign-in-google" value="Sign In with Google">
+                                    <input class="btn facebook btn-block " type="button" id="sign-in-facebook" value="Sign In with Facebook">
+                                    <input class="btn twitter btn-block" type="button" id="sign-in-twitter" value="Sign In with Twitter">
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <!--End navbar-collapse -->
+
+    </div>
+    <!--End container -->
+
+</div>
+<!--End main-nav -->
+
+<!-- ==============================================
+HEADER
+=============================================== -->
+<header id="home" class="jumbotron">
+
+    <div class="container">
+
+        <div class="message-box clearfix">
+
+            <div class="left-col">
+                <p>Now That <span>I'm Grown Up</span><br/> I'm in</p>
+            </div>
+
+            <div class="right-col flexslider home-slider" style="z-index:1;">
+
+                <ul class="slides">
+
+                    <li><p>Design</p></li>
+
+                    <li><p>Nutrition</p></li>
+
+                    <li><p>Management</p></li>
+
+                    <li><p>Education</p></li>
+
+                </ul>
+
+            </div>
+            <!--End home-slider -->
+
+        </div>
+        <!--End message-box -->
+
+    </div>
+    <!--End container -->
+
+</header>
+<!--End header -->
+
+<!-- ==============================================
+PORTFOLIO
+=============================================== -->
+<section id="portfolio">
+
+    <div id="portfolio-header" class="text-center">
+
+        <h1 class="section-title scrollimation scale-in">Companies <span>searching</span> for Employees<i
+                class="fa fa-pencil"></i></h1>
+
+        <!--==== Portfolio Filters ====-->
+        <div id="filter-works">
+            <ul>
+                <li class="active">
+                    <a href="#" data-filter="*">All</a>
+                </li>
+                <li ng-repeat="tag in tags">
+                    <a href="#" filter-item="{{ tag.tag }}"> {{ tag.name }}</a>
+                </li>
+            </ul>
+        </div>
+        <!--End portfolio filters -->
+    </div>
+    <!--End portfolio header -->
+
+    <div class="container masonry-wrapper scrollimation fade-in">
+
+        <div id="projects-container">
+            <!-- ==============================================
+            SINGLE PROJECT ITEM
+            =============================================== -->
+            <a ng-repeat="item in items" class="project-item item {{ item.tag }}" href="{{ item.url }}"
+               open-dialog="project-modal"
+               data-images="{{ item.images }}">
+
+                <img class="img-responsive project-image" src="{{ item.thumb }}" alt=""><!--Project thumb -->
+
+                <div class="hover-mask">
+                    <h2 class="project-title">{{ item.title }}</h2><!--Project Title -->
+                    <p>{{ item.subtitle }}</p><!--Project Subtitle -->
+                </div>
+
+                <!--==== Project Preview HTML ====-->
+
+                <div class="sr-only project-description">
+                    <p class="clearfix"> {{ item.topText }} </p>
+                    <img class="img-responsive img-center" src="{{item.logo}}" alt="">
+
+                    <p> {{ item.bottomText }} </p>
+                </div>
+            </a>
+        </div>
+        <!-- End projects -->
+    </div>
+    <!-- End container -->
+
+    <!-- ==============================================
+    PROJECT PREVIEW MODAL
+    =============================================== -->
+    <div id="project-modal" class="modal fade">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+
+                <div class="modal-body">
+
+                    <div class="left-col">
+                        <img class="img-responsive" src="assets/imac.png" alt="">
+
+                        <div class="loader"></div>
+                        <div class="image-wrapper"></div>
+                    </div>
+
+                    <h1></h1>
+
+                    <div class="project-descr"></div>
+
+                    <div class="clearfix"></div>
+
+                    <p class="text-center"><a class="btn btn-theme"><i class="fa fa-external-link"></i>Visit Website</a>
+                    </p>
+
+                </div>
+                <!-- End modal-body -->
+
+            </div>
+            <!-- End modal-content -->
+
+        </div>
+        <!-- End modal-dialog -->
+
+    </div>
+    <!-- End modal -->
+
+</section>
+<!-- End portfolio section -->
+
+
+<!-- ==============================================
+MAP
+=============================================== -->
+<section id="mapSection">
+
+    <h1 class="section-title scrollimation scale-in">Where these <span>Companies</span> are located<i class="fa fa-map"></i>
+    </h1>
+
+        <div class="row scrollimation fade-right">
+            <div id="map"></div>
+
+    </div>
+
+</section>
+
+<!-- ==============================================
+ABOUT
+=============================================== -->
+<section id="info">
+
+    <div class="container">
+        <h1 class="section-title scrollimation scale-in">Jobs our <span>Customers</span> found <i class="fa fa-briefcase"></i>
+        </h1>
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-1 scrollimation fade-right">
+                <ul>
+                    <li> Patternmaker</li>
+                    <li> Retail Buyer</li>
+                    <li> Lighting Designer</li>
+                    <li> Resort Manager</li>
+                    <li> Radiological Technician</li>
+                    <li> Food Assistance</li>
+                    <li> Sports Medicine</li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-sm-offset-1 scrollimation fade-left">
+                <ul>
+                    <li> Child Nutritionist</li>
+                    <li> Dental Hygenist</li>
+                    <li> Domestic Violence Programs</li>
+                    <li> Chiropractor</li>
+                    <li> Foster Care Services</li>
+                    <li> Parent & Family Centers</li>
+                    <li> Long Term Care Coordinator!!!</li>
+
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-sm-offset-1 scrollimation fade-left">
+                    <ul>
+
+
+
+                    </ul>
+
+            </div>
+        </div>
+        <!--End row -->
+
+    </div>
+    <!--End container -->
+
+</section>
+<!--End about section -->
+
+<!-- ==============================================
+SERVICES
+=============================================== -->
+<section id="services">
+
+    <div class="container">
+
+        <h1 class="section-title scrollimation scale-in">The <span>Services</span> We offer<i class="fa fa-wrench"></i>
+        </h1>
+
+        <div class="row services scrollimation fade-left">
+            <div class="col-md-3 text-center">
+                <a href="#service" class="icon"><i class="fa fa-graduation-cap"></i></a>
+
+                <h2>Internships</h2>
+            </div>
+            <div class="col-md-3 details">
+                <p>Finding the right internship is the first stepping stone on your path towards getting your dream job.
+                    We'll help you find the perfect one.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <a href="#service" class="icon"><i class="fa fa-briefcase"></i></a>
+
+                <h2>Careers</h2>
+            </div>
+            <div class="col-md-3 details">
+                <p>Whether you are a recent graduate or an experienced alumni, we can help you locate the next position to meet your goals.
+                    </p>
+            </div>
+        </div>
+        <!--End row (top) -->
+
+        <div class="row line visible-md visible-lg">
+            <div class="col-md-3"><span class="spot"></span></div>
+            <div class="col-md-3"><span class="spot"></span></div>
+            <div class="col-md-3"><span class="spot"></span></div>
+            <div class="col-md-3"><span class="spot"></span></div>
+        </div>
+        <!--End row -->
+
+        <div class="row services bottom-row scrollimation fade-right">
+            <div class="col-md-3 text-center col-md-push-3">
+                <h2>Site Statistics</h2>
+                <a href="#service" class="icon"><i class="fa fa-bar-chart"></i></a>
+            </div>
+            <div class="col-md-3 details col-md-pull-3">
+                <p>The number of registered companies looking for employees is 1,500. At any given time, we have around 800 internship ad listings as well as
+                    2,000 career position listings, giving you a wide variety of career options.</p>
+            </div>
+            <div class="col-md-3 text-center  col-md-push-3">
+                <h2>Networking</h2>
+                <a href="#service" class="icon"><i class="fa fa-glass"></i></a>
+            </div>
+            <div class="col-md-3 details  col-md-pull-3">
+                <p>Get connected with our partners in Human Sciences to improve your career potential.</p>
+            </div>
+        </div>
+        <!--End row (bottom)-->
+
+    </div>
+    <!--End container -->
+
+</section>
+<!--End services section-->
+
+<!-- ==============================================
+ABOUT
+=============================================== -->
+<section id="about">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-1 scrollimation fade-right">
+                <img class="img-responsive img-circle img-center" src="assets/graduates.jpg" alt="">
+            </div>
+            <div class="col-sm-6 col-sm-offset-1 scrollimation fade-left">
+                <h1>Hello, we are future employees</h1>
+
+                <p>Meet our Management team. <a href="https://goo.gl/maps/xWD2R" target="_blank">We are a group of students
+                    in the College of Human Sciences</a> at Oklahoma State University. <a href="#somelink"> Our team researched ways to offer the perfect job searching website
+                    </a> to aid in your educational career. <a href="#somelink">We are here to help guide you</a> on your journey
+                    <a href="#somelink">in entering the workforce.</a>.<br/> </p>
+                <a href="#portfolio" class="btn btn-theme transparent scrollto">View Companies Searching for Employees</a>
+            </div>
+        </div>
+        <!--End row -->
+
+    </div>
+    <!--End container -->
+
+</section>
+<!--End about section -->
+
+<!-- ==============================================
+SKILLS
+=============================================== -->
+<section id="skills">
+
+    <div class="container">
+
+        <h1 class="section-title scrollimation scale-in">What our <span>Customers</span> are saying<i class="fa fa-comment"></i></h1>
+
+        <div class="row skills scrollimation fade-up">
+
+            <div class="col-sm-6 col-md-3 text-center">
+
+                <img class="img-responsive img-circle img-center" src="assets/Caleb%20Duggan.jpg" alt="" width="150">
+
+                <p><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+
+                <p>This website was so helpful in finding my first job fresh out of college! </p>
+
+                <h2 class="text-center">Caleb Duggan  <br /> Nutrition</h2>
+            </div>
+            <div class="col-sm-6 col-md-3 text-center">
+
+                <img class="img-responsive img-circle img-center" src="assets/LaurenYoung.jpg" alt="" width="150">
+
+                <p><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+
+                <p>I enjoyed using this career finding service so much--it felt very tailored to my field and I felt a strong connection with all
+                of the other alumni who graduated from the same college as I did. </p>
+
+                <h2 class="text-center">Lauren Young  <br /> Apparel Merchandising</h2>
+            </div>
+            <div class="col-sm-6 col-md-3 text-center">
+
+                <img class="img-responsive img-circle img-center" src="assets/SarahM..jpg" alt="" width="150">
+
+                <p><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+
+                <p>The College of Human Sciences already helped me to learn what I needed to learn in order to fulfill my dreams. Now with this career finding service,
+                    they are helping to guide me even more towards fulfilling my goals. Thank you Human Sciences!</p>
+
+                <h2 class="text-center">Sarah McAllister  <br /> Hotel & Restaurant</h2>
+            </div>
+            <div class="col-sm-6 col-md-3 text-center">
+
+                <img class="img-responsive img-circle img-center" src="assets/Sharay%20Sullivan.jpg" alt="" width="150">
+
+                <p><i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+
+                <p>This website enabled me to find the the perfect match for my internship location. Thank you Now That I'm Grown Up, you're a lifesaver! </p>
+
+                <h2 class="text-center">Sharay Sullivan <br /> HDFS</h2>
+            </div>
+
+        </div>
+        <!--End row -->
+
+    </div>
+    <!--End container -->
+
+</section>
+<!--End skills section -->
+
+
+
+<!--&lt;!&ndash; ==============================================-->
+<!--TWITTER FEED-->
+<!--=============================================== &ndash;&gt;	-->
+<!--<section id="twitter">-->
+<!--<div class="container">-->
+<!--<div class="row scrollimation fade-in">-->
+<!--<div class="col-sm-1 twitter-icon">-->
+<!--<i class="fa fa-twitter"></i>-->
+<!--</div>-->
+<!--<div class="col-sm-11">-->
+<!--<div id="twitter-slider" class="flexslider" data-widget-id="386017398488186880" data-tweets-length="3">-->
+<!---->
+<!--</div>-->
+<!--</div>-->
+<!--</div>&lt;!&ndash; End row &ndash;&gt;-->
+<!--</div>&lt;!&ndash; End container &ndash;&gt;-->
+<!---->
+<!--</section>&lt;!&ndash; End Twitter section &ndash;&gt;-->
+
+<!-- ==============================================
+CONTACT
+=============================================== -->
+<section id="contact">
+
+    <div class="container">
+
+        <h1 class="section-title scrollimation scale-in">Keep in <span>Touch</span> with us</h1>
+
+        <div class="row">
+
+            <div class="col-sm-5 contact-info scrollimation fade-right">
+
+                <p>We would love to hear about what you think of our organization. Please feel free to contact us! We will get back to you
+                as soon as we can.</p>
+
+                <address>
+                    Now That I'm Grown Up<br>
+                    432 Human Sciences<br>
+                    Stillwater, Oklahoma 74078-74078<br>
+                    (123) 456 - 7890
+                </address>
+
+                <ul class="socials">
+                    <li><a href="#twitter-link"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#facebook-link"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#dribbble-link"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a href="#gplus-link"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+
+            </div>
+
+            <form id="contact-form" class="col-sm-7 scrollimation fade-left" action="contact.php" method="post"
+                  novalidate>
+
+                <div class="form-group">
+                    <label class="control-label" for="contact-name">Name</label>
+
+                    <div class="controls">
+                        <i class="fa fa-user"></i>
+                        <input id="contact-name" name="contactName" placeholder="My name is..."
+                               class="form-control input-lg requiredField" type="text"
+                               data-error-empty="Please enter your name">
+                    </div>
+                </div>
+                <!-- End name input -->
+
+                <div class="form-group">
+                    <label class="control-label" for="contact-mail">Email</label>
+
+                    <div class=" controls">
+                        <i class="fa fa-envelope"></i>
+                        <input id="contact-mail" name="email" placeholder="Please respond at..."
+                               class="form-control input-lg requiredField" type="email"
+                               data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+                    </div>
+                </div>
+                <!-- End email input -->
+
+                <div class="form-group">
+                    <label class="control-label" for="contact-message">Message</label>
+
+                    <div class="controls">
+                        <i class="fa fa-comment"></i>
+                        <textarea id="contact-message" name="comments" placeholder="I wanna talk about..."
+                                  class="form-control input-lg requiredField" rows="5"
+                                  data-error-empty="Please enter your message"></textarea>
+                    </div>
+                </div>
+                <!-- End textarea -->
+
+                <p>
+                    <button name="submit" type="submit" class="btn btn-theme btn-lg" data-error-message="Error!"
+                            data-sending-message="Sending..." data-ok-message="Message Sent"><i
+                            class="fa fa-paper-plane"></i>Send Message
+                    </button>
+                </p>
+                <input type="hidden" name="submitted" id="submitted" value="true"/>
+
+            </form>
+            <!-- End contact-form -->
+
+        </div>
+        <!-- End row -->
+
+    </div>
+    <!-- End container -->
+
+</section>
+<!-- End contact section -->
+
+<!-- ==============================================
+FOOTER
+=============================================== -->
+<footer id="main-footer">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-sm-6 left-col">
+                <h1 class="small-logo">Group Number 8<br><span>Apparel Designers & Merchandisers</span></h1>
+                <ul class="footer-nav">
+                    <li><a class="scrollto" href="#home">Home</a></li>
+                    <li><a class="scrollto" href="#portfolio">Employers</a></li>
+                    <li><a class="scrollto" href="#services">Services</a></li>
+                    <li><a class="scrollto" href="#about">About Us</a></li>
+                    <li><a class="scrollto" href="#skills">Reviews</a></li>
+                    <li><a class="scrollto" href="#contact">Contact</a></li>
+                </ul>
+                <p>&copy;Copyright 2015 / All Rights Reserved</p>
+            </div>
+
+            <div class="col-sm-6 right-col">
+                <h2>Who Are We?</h2>
+
+                <p>We are Human Sciences seniors at Oklahoma State University. We understand that it is difficult
+                to make sense of the workplace and face competition in finding a job, internship, or starting your own business, so we are here to help.</p>
+            </div>
+
+        </div>
+        <!-- End row -->
+
+    </div>
+    <!-- End container -->
+
+</footer>
+<!-- End footer -->
+
+<!-- ==============================================
+SCRIPTS
+=============================================== -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.1.min.js">\x3C/script>')</script>
+
+<script src="js/libs/bootstrap.min.js"></script>
+<script src='js/jquery.scrollto.js'></script>
+<script src='js/jquery.flexslider.min.js'></script>
+<script src='js/twitterFetcher_v10_min.js'></script>
+<script src='js/jquery.masonry.min.js'></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.easypiechart.min.js"></script>
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/libs/angular.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/map.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAztwkn-Ao3fEOKh9BDUKcg7u2jvqCr0wo&callback=initMap">
+</script>
+<script src="js/designr.js"></script>
+</body>
+
+</html>
