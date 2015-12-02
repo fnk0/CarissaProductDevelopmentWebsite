@@ -90,15 +90,15 @@
                         '<div id="content">' +
                             '<div>' +
                                 '<h3>' + item.name + '</h3>'+
-                                '<img class="img-responsive img-center" src="' + item.thumb + '" alt="">' +
-                                '<p>' + item.bottomText + '</p>' +
+                                '<img class="img-responsive img-center" width="200" src="' + item.thumb + '" alt="">' +
+                                '<p>' + item.title + '</p>' +
                             '</div>' +
                         '</div>';
 
                     markers.push(m);
 
                     var infoWindow =  new google.maps.InfoWindow({
-                        maxWidth: 400
+                        maxWidth: 250
                     });
 
                     google.maps.event.addListener(m, 'click', (function (marker, content, infowindow) {
