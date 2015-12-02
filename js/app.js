@@ -78,12 +78,29 @@
                     var item = $rootScope.items[i];
 
                     var latLng = new google.maps.LatLng(item.location.lat, item.location.lng);
+                    var pinColor = "FE7569";
+
+                    if (item.color) {
+                        pinColor = item.color;
+                    }
+
+                    var pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + pinColor,
+                        new google.maps.Size(21, 34),
+                        new google.maps.Point(0,0),
+                        new google.maps.Point(10, 34));
+
+                    var pinShadow = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_shadow",
+                        new google.maps.Size(40, 37),
+                        new google.maps.Point(0, 0),
+                        new google.maps.Point(12, 35));
 
                     var m = new google.maps.Marker({
                         position: latLng,
                         map: $rootScope.map,
                         animation: google.maps.Animation.DROP,
-                        title: item.name
+                        title: item.name,
+                        icon: pinImage,
+                        shadow: pinShadow
                     });
 
                     var content =
