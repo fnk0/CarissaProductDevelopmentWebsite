@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Caleb Duggan",
+    "major": "Nutrition",
+    "image": "assets/CalebDuggan.jpg",
+    "comment": "This website was so helpful in finding my first job fresh out of college!"
+  },
+  {
+    "name": "Lauren Young ",
+    "major": "Apparel Merchandising",
+    "image": "assets/LaurenYoung.jpg",
+    "comment": "I enjoyed using this career finding service so much--it felt very tailored to my field and I felt a strong connection with all of the other alumni who graduated from the same college as I did."
+  },
+  {
+    "name": "Sarah McAllister",
+    "major": "Hotel & Restaurant",
+    "image": "assets/SarahM.jpg",
+    "comment": "The College of Human Sciences already helped me to learn what I needed to learn in order to fulfill my dreams. Now with this career finding service, they are helping to guide me even more towards fulfilling my goals. Thank you Human Sciences!"
+  },
+  {
+    "name": "Sharay Sullivan",
+    "major": "HDFS",
+    "image": "assets/SharaySullivan.jpg",
+    "comment": "This website enabled me to find the the perfect match for my internship location. Thank you Now That I'm Grown Up, you're a lifesaver!"
+  }
+]
