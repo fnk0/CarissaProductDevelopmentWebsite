@@ -35,11 +35,11 @@
       "thumb": "assets/companies/nordstrom_logo.png",
       "logo": "assets/companies/nordstrom_logo.png",
       "images": "assets/companies/nordstrom_headquarters.png,assets/companies/nordstrom_bus_fash.png,assets/companies/nordstrom_interns.png",
-      "topText": "We believe in rewarding outstanding work, promoting from within and building long-term relationships with our employees. Our culture makes all of these things possible. It’s fun, supportive, competitive and a great place to grow your career. At Nordstrom, we like to keep things simple. We have one goal: Make customers feel good. Whether we’re helping a bride find the perfect dress or teaching a group of kids to tie their shoes, we're focused on creating long-lasting relationships with our customers.",
+      "topText": "We believe in rewarding outstanding work, promoting from within and building long-term relationships with our employees. Our culture makes all of these things possible. It’s fun, supportive, competitive and a great place to grow your career. At Nordstrom, we like to keep things simple. We have one goal: Make customers feel good. Whether we’re helping a bride find the perfect dress or teaching a group of kids to tie their shoes, we're focused on creating lng-lasting relationships with our customers.",
       "bottomText": "Whether a career in fashion has always been your calling or you're still tinkering with the idea, Nordstrom is a great place to start your career. You'll learn our business, earn a competitive salary and receive an awesome merchandise discount. Applications for our 2016 program will be posted in early December. Want more information about our program? Email us!",
       "location": {
         "lat": 47.606323,
-        "long": -122.314445
+        "lng": -122.314445
       }
     },
     {
@@ -55,7 +55,7 @@
       "bottomText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu. Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat",
       "location": {
         "lat": 34.739785,
-        "long": -92.291238
+        "lng": -92.291238
       }
     },
     {
@@ -71,7 +71,7 @@
       "bottomText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu. Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat",
       "location": {
         "lat": 40.772944,
-        "long": -73.958814
+        "lng": -73.958814
       }
     },
     {
@@ -87,7 +87,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 33.013753,
-        "long": -96.695429
+        "lng": -96.695429
       }
     },
     {
@@ -103,7 +103,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 40.772944,
-        "long": -73.958814
+        "lng": -73.958814
       }
     },
     {
@@ -119,7 +119,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 41.143063,
-        "long": -102.973309
+        "lng": -102.973309
       }
     },
     {
@@ -132,7 +132,11 @@
       "logo": "assets/projects/company-logo.png",
       "images": "assets/projects/project-slide.jpg, assets/projects/project-slide.jpg, assets/projects/project-slide.jpg",
       "topText": "Hello world! This is some amazing text!",
-      "bottomText": "This text will go at the bottom of the company logo!"
+      "bottomText": "This text will go at the bottom of the company logo!",
+      "location": {
+        "lat": 36.1157,
+        "lng": -97.0586
+      }
     },
     {
       "name": "Walmart",
@@ -147,7 +151,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 36.368784,
-        "long": -94.205525
+        "lng": -94.205525
       }
     },
     {
@@ -163,7 +167,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 36.111955,
-        "long": -97.057545
+        "lng": -97.057545
       }
     },
     {
@@ -179,7 +183,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 35.445411,
-        "long": -97.539662
+        "lng": -97.539662
       }
     },
     {
@@ -195,7 +199,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 35.444293,
-        "long": -97.502583
+        "lng": -97.502583
       }
     },
     {
@@ -211,7 +215,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 36.954037,
-        "long": -94.787129
+        "lng": -94.787129
       }
     },
     {
@@ -227,7 +231,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 35.484559,
-        "long": -97.541035
+        "lng": -97.541035
       }
     },
     {
@@ -243,7 +247,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 32.960079,
-        "long": -96.833407
+        "lng": -96.833407
       }
     },
     {
@@ -259,7 +263,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 37.769350,
-        "long": -122.402927
+        "lng": -122.402927
       }
     },
     {
@@ -275,7 +279,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 33.738517,
-        "long": -84.383535
+        "lng": -84.383535
       }
     },
     {
@@ -291,7 +295,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 41.861012,
-        "long":  -87.653914
+        "lng":  -87.653914
       }
     },
     {
@@ -307,7 +311,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 36.135585,
-        "long": -95.983077
+        "lng": -95.983077
       }
     },
     {
@@ -323,7 +327,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 36.112232,
-        "long": -97.056859
+        "lng": -97.056859
       }
     },
     {
@@ -339,7 +343,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 36.112232,
-        "long": -97.056859
+        "lng": -97.056859
       }
     },
     {
@@ -355,7 +359,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 38.818914,
-        "long": -104.809181
+        "lng": -104.809181
       }
     },
     {
@@ -371,7 +375,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 38.982923,
-        "long": -77.095403
+        "lng": -77.095403
       }
     },
     {
@@ -387,7 +391,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 38.149092,
-        "long": -92.621708
+        "lng": -92.621708
       }
     },
     {
@@ -402,7 +406,7 @@
       "bottomText": "This text will go at the bottom of the company logo!",
       "location": {
         "lat": 36.120552,
-        "long": -97.060635
+        "lng": -97.060635
       }
     }
   ]

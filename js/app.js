@@ -18,13 +18,14 @@
                 .success(function (data) {
                     $rootScope.tags = data.tags;
                     $rootScope.items = data.items;
+                    $rootScope.updateMap();
                     console.log(data);
                 })
                 .error(function (data) {
                     console.log(data);
                 });
 
-            $rootScope.chunk = function(arr, size) {
+            $rootScope.chunk = function (arr, size) {
                 var newArr = [];
                 for (var i = 0; i < arr.length; i += size) {
                     newArr.push(arr.slice(i, i + size));
@@ -53,39 +54,62 @@
 
             $http.get('items/customers.json')
                 .success(function (data) {
-                   $rootScope.customers = data;
+                    $rootScope.customers = data;
                 });
 
             var myLatLng = {lat: 36.1157, lng: -97.0586};
 
-            $rootScope.map =  new google.maps.Map(document.getElementById('map'), {
+            $rootScope.map = new google.maps.Map(document.getElementById('map'), {
                 center: myLatLng,
                 zoom: 5
             });
 
-            var marker = new google.maps.Marker({
-                position: myLatLng,
-                map: $rootScope.map,
-                animation: google.maps.Animation.DROP,
-                title: 'Oklahoma State University'
-            });
+            //var marker = new google.maps.Marker({
+            //    position: myLatLng,
+            //    map: $rootScope.map,
+            //    animation: google.maps.Animation.DROP,
+            //    title: 'Oklahoma State University'
+            //});
 
-            for(var i = 0; i < items.length; i++) {
-                var item = items[i];
-                var location = {
-                    lat: item.lat,
-                    lng: item.long
-                };
+            var markers = [];
 
-                var m = new google.maps.Marker({
-                    position: location,
-                    map: $rootScope.map,
-                    animation: google.maps.Animation.DROP,
-                    title: item.name
-                });
-            }
+            $rootScope.updateMap = function () {
+                for (var i = 0; i < $rootScope.items.length; i++) {
+                    var item = $rootScope.items[i];
 
+                    var latLng = new google.maps.LatLng(item.location.lat, item.location.lng);
 
+                    var m = new google.maps.Marker({
+                        position: latLng,
+                        map: $rootScope.map,
+                        animation: google.maps.Animation.DROP,
+                        title: item.name
+                    });
+
+                    var content =
+                        '<div id="content">' +
+                            '<div>' +
+                                '<h3>' + item.name + '</h3>'+
+                                '<img class="img-responsive img-center" src="' + item.thumb + '" alt="">' +
+                                '<p>' + item.bottomText + '</p>' +
+                            '</div>' +
+                        '</div>';
+
+                    markers.push(m);
+
+                    var infoWindow =  new google.maps.InfoWindow({
+                        maxWidth: 400
+                    });
+
+                    google.maps.event.addListener(m, 'click', (function (marker, content, infowindow) {
+                        return function () {
+                            infowindow.setContent(content);
+                            infowindow.open($rootScope.map, marker);
+                        }
+                    })(m, content, infoWindow));
+
+                }
+            };
         }]);
 
     app.filter("sanitize", ['$sce', function ($sce) {
