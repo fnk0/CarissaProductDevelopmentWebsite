@@ -8,8 +8,10 @@
 
     var app = angular.module('WebApp', []);
 
-    app.controller('AppController', ['$http', '$scope', '$rootScope',
-        function ($http, $scope, $rootScope) {
+    app.controller('AppController', ['$http', '$scope', '$rootScope', '$sce',
+        function ($http, $scope, $rootScope, $sce) {
+
+            $rootScope.trustAsHtml = $sce.trustAsHtml;
             $rootScope.items = [];
             $rootScope.tags = [];
             $http.get('items/items.json')
@@ -21,6 +23,69 @@
                 .error(function (data) {
                     console.log(data);
                 });
+
+            $rootScope.chunk = function(arr, size) {
+                var newArr = [];
+                for (var i = 0; i < arr.length; i += size) {
+                    newArr.push(arr.slice(i, i + size));
+                }
+                return newArr;
+            };
+
+            $rootScope.jobs = [];
+
+            $http.get('items/jobs.json')
+                .success(function (data) {
+                    $rootScope.jobs = data;
+                    $rootScope.chunkedJobs = $rootScope.chunk($rootScope.jobs, 7);
+                });
+
+            $http.get('items/services.json')
+                .success(function (data) {
+                    $rootScope.services = data;
+                });
+
+            $http.get('items/about.json')
+                .success(function (data) {
+                    $rootScope.about = data;
+
+                });
+
+            $http.get('items/customers.json')
+                .success(function (data) {
+                   $rootScope.customers = data;
+                });
+
+            var myLatLng = {lat: 36.1157, lng: -97.0586};
+
+            $rootScope.map =  new google.maps.Map(document.getElementById('map'), {
+                center: myLatLng,
+                zoom: 5
+            });
+
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: $rootScope.map,
+                animation: google.maps.Animation.DROP,
+                title: 'Oklahoma State University'
+            });
+
+            for(var i = 0; i < items.length; i++) {
+                var item = items[i];
+                var location = {
+                    lat: item.lat,
+                    lng: item.long
+                };
+
+                var m = new google.maps.Marker({
+                    position: location,
+                    map: $rootScope.map,
+                    animation: google.maps.Animation.DROP,
+                    title: item.name
+                });
+            }
+
+
         }]);
 
     app.filter("sanitize", ['$sce', function ($sce) {
