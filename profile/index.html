@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html ng-app="WebApp">
+<head>
+    <title>{{ user.name.full }}</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--[if lte IE 8]>
+    <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css"/>
+
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
+
+    <link rel="stylesheet" href="assets/css/profile.css"/>
+</head>
+<body id="top" ng-controller="ProfileController">
+
+<!-- Header -->
+<header id="header">
+    <a href="#" class="image avatar"><img src="{{ user.picture.thumbnail }}" alt=""/></a>
+
+    <h1><strong>I am {{ user.name.full }}</strong>,&nbsp;
+        {{ user.headline }}
+    </h1>
+</header>
+
+<!-- Main -->
+<div id="main">
+    <!-- One -->
+    <section id="one">
+        <header class="major">
+            <h2> {{ user.title }}</h2>
+        </header>
+        <p> {{ user.aboutMe }}</p>
+        <ul class="actions">
+            <li><a href="#" class="button">Learn More</a></li>
+        </ul>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="two">
+        <h1> Resume </h1>
+
+        <h3 class="title-teal">Education</h3>
+        <div class="row">
+            <article class="12u">
+                School: {{ user.resume.education }}, <i>class of &nbsp;<strong>{{user.resume.year}}</strong></i>
+            </article>
+
+            <article class="12u">
+                Major: <strong>{{ user.resume.major }}</strong>
+            </article>
+        </div>
+
+        <br/>
+        <h3 class="title-teal">Experience</h3>
+
+        <ul class="alt">
+            <li ng-repeat="job in user.resume.jobs">
+
+                    <strong> {{ job.title }} </strong> &nbsp;at&nbsp;{{ job.company }}
+                    <br />
+
+                    {{ job.duties }}
+            </li>
+        </ul>
+
+        <h3 class="title-teal">Skills</h3>
+        <ul>
+            <li ng-repeat="skill in user.resume.skills">
+                {{ skill }}
+            </li>
+        </ul>
+
+        <h3 class="title-teal">Certifications</h3>
+        <ul class="alt">
+            <li ng-repeat="cert in user.resume.certifications">
+                {{ cert.name }} <br />
+                {{ cert.authority }}, {{ cert.date }}
+
+            </li>
+        </ul>
+
+        <h3 class="title-teal">Languages</h3>
+        <ul>
+            <li ng-repeat="language in user.resume.languages">
+                {{ language }}
+            </li>
+        </ul>
+
+        <h3 class="title-teal">Honors & Awards</h3>
+        <ul>
+            <li ng-repeat="award in user.resume.awards">
+                {{ award }}
+            </li>
+        </ul>
+
+    </section>
+
+    <!-- Three -->
+    <section id="three">
+        <h2>Get In Touch</h2>
+
+        <p>{{ user.contactMessage }}</p>
+
+        <div class="row">
+            <div class="8u 12u$(small)">
+                <form method="post" action="#">
+                    <div class="row uniform 50%">
+                        <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name"/></div>
+                        <div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email"/>
+                        </div>
+                        <div class="12u$"><textarea name="message" id="message" placeholder="Message"
+                                                    rows="4"></textarea></div>
+                    </div>
+                </form>
+                <ul class="actions">
+                    <li><input type="submit" value="Send Message"/></li>
+                </ul>
+            </div>
+            <div class="4u$ 12u$(small)">
+                <ul class="labeled-icons">
+                    <li>
+                        <h3 class="icon fa-home"><span class="label">Address</span></h3>
+                        {{ user.location.street }}<br/>
+                        {{ user.location.city }}, {{ user.locatin.state }} {{ user.location.zip }}<br/>
+                        {{ user.location.country }}
+                    </li>
+                    <li>
+                        <h3 class="icon fa-phone"><span class="label">Phone</span></h3>
+                        {{ user.phone }}
+                    </li>
+                    <li>
+                        <h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
+                        {{ user.cell }}
+                    </li>
+                    <li>
+                        <h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
+                        <a href="#">{{ user.email }}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <ul class="icons">
+        <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+        <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+        <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+        <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+    </ul>
+    <ul class="copyright">
+        <li>&copy;&nbsp;Copyright 2015 &nbsp;|&nbsp; All Rights Reserved</li>
+    </ul>
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.poptrox.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]>
+<script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
+<script src="../js/libs/angular.min.js"></script>
+<script src="../js/app.js"></script>
+<script src="ProfileController.js"></script>
+
+</body>
+</html>

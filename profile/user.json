@@ -1,0 +1,80 @@
+{
+  "gender": "female",
+  "name": {
+    "title": "mrs",
+    "first": "bessie",
+    "last": "scott",
+    "full": "Bessie Scott"
+  },
+  "location": {
+    "street": "4879 Railroad St.",
+    "city": "Sunshine Coast",
+    "state": "CA",
+    "country": "United States",
+    "zip": 65503
+  },
+  "email": "bessie.scott@example.com",
+  "username": "whitefish851",
+  "password": "picard",
+  "salt": "MwqaLYWr",
+  "md5": "742116b9092819635cde2fad51ef92d1",
+  "sha1": "95835ddcacbbe2a76ccba0be5292701a1f16f91b",
+  "sha256": "a5df2bfd3ee84a869c43f92fe28ce5f56f7700bc75ce2e12bbee7cad2524af82",
+  "registered": 1388182635,
+  "dob": 570879147,
+  "phone": "00-7530-8569",
+  "cell": "0486-251-008",
+  "TFN": "643776021",
+  "picture": {
+    "large": "https://randomuser.me/api/portraits/women/48.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/women/48.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/48.jpg"
+  },
+  "contactMessage": "Get in touch with me to talk about stuff or catch a game of beer pong!",
+  "headline": "and this is my awesome headline text!",
+  "title": "The most amazing title ever!",
+  "aboutMe": "About me... Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.",
+
+  "resume": {
+    "education": "Oklahoma State University",
+    "major": "Apparel Merchandising",
+    "year": 2016,
+    "jobs": [
+      {
+        "title": "Waitress",
+        "company": "Hideaway Pizza",
+        "duties": "Bring people pizza and refill glasses"
+      },
+      {
+        "title": "Lab Monitor",
+        "company": "Oklahoma State University",
+        "duties": "Watch Netflix"
+      }
+    ],
+    "skills": [
+      "Watch Netflix",
+      "Sleep",
+      "Beer Pong!"
+    ],
+    "certifications": [
+      {
+        "name": "Certification of Awesomeness",
+        "authority": "Myself!",
+        "date": "Nov 16, 2015"
+      }
+    ],
+    "languages": [
+      "English",
+      "Spanish",
+      "Kinglon"
+    ],
+    "awards": [
+      "Dean's Roll, Spring 2015",
+      "Beer Pong Champion, Fall 2015"
+    ]
+
+  }
+
+
+
+}
