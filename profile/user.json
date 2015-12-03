@@ -1,19 +1,19 @@
 {
   "gender": "female",
   "name": {
-    "title": "mrs",
-    "first": "bessie",
-    "last": "scott",
-    "full": "Bessie Scott"
+    "title": "ms",
+    "first": "lauren",
+    "last": "young",
+    "full": "Lauren Young"
   },
   "location": {
     "street": "4879 Railroad St.",
-    "city": "Sunshine Coast",
-    "state": "CA",
+    "city": "Stillwater",
+    "state": "OK",
     "country": "United States",
     "zip": 65503
   },
-  "email": "bessie.scott@example.com",
+  "email": "bessie.scott@okstate.edu",
   "username": "whitefish851",
   "password": "picard",
   "salt": "MwqaLYWr",
@@ -28,49 +28,54 @@
   "picture": {
     "large": "https://randomuser.me/api/portraits/women/48.jpg",
     "medium": "https://randomuser.me/api/portraits/med/women/48.jpg",
-    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/48.jpg"
+    "thumbnail": "../assets/LaurenYoung.jpg"
   },
-  "contactMessage": "Get in touch with me to talk about stuff or catch a game of beer pong!",
-  "headline": "and this is my awesome headline text!",
-  "title": "The most amazing title ever!",
-  "aboutMe": "About me... Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.",
+  "contactMessage": "Get in touch with me to talk about my resume and discuss further job possibilities",
+  "headline": "My degree is in Nutritional Sciences from the College of Human Sciences at Oklahoma State University.",
+  "title": "Bessie Scott's Resume",
+  "aboutMe": "Cover Letter: I am a Nutritional S  ciences student in the College of Human Sciences at Oklahoma State University. After graduation, I hope to find a job at a food assistance agency, either in the Midwest, or the northern side of the country, but I'm open to possibilities. I am passionate about my future career and helping others.",
 
   "resume": {
     "education": "Oklahoma State University",
-    "major": "Apparel Merchandising",
+    "major": "Nutrition",
     "year": 2016,
     "jobs": [
       {
         "title": "Waitress",
-        "company": "Hideaway Pizza",
-        "duties": "Bring people pizza and refill glasses"
+        "company": "The Garage",
+        "duties": "Take food orders and refill glasses"
       },
       {
         "title": "Lab Monitor",
         "company": "Oklahoma State University",
-        "duties": "Watch Netflix"
+        "duties": "Fix machines when they are broken, assist students in their work"
+      },
+      {
+        "title": "Intern",
+        "company": "Keystone Food Service",
+        "duties": "Assisted in developing meal plans. Contacted resources when necessary"
       }
     ],
     "skills": [
-      "Watch Netflix",
-      "Sleep",
-      "Beer Pong!"
+      "Adobe Creative Suite",
+      "Health Expert",
+      "Nutritional Science Technologies"
     ],
     "certifications": [
       {
-        "name": "Certification of Awesomeness",
-        "authority": "Myself!",
+        "name": "Certification of Award",
+        "authority": "The College of Human Sciences",
         "date": "Nov 16, 2015"
       }
     ],
     "languages": [
       "English",
       "Spanish",
-      "Kinglon"
+      "German"
     ],
     "awards": [
-      "Dean's Roll, Spring 2015",
-      "Beer Pong Champion, Fall 2015"
+      "Dean's Honor Roll, Spring 2015",
+      "Senior of Significance, Fall 2015"
     ]
 
   }
