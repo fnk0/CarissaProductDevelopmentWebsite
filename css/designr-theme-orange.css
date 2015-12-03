@@ -240,7 +240,7 @@ body {
 }
 
 .navbar-brand span {
-    font-size:24px;
+    font-size:22px;
     font-weight:300;
 }
 
@@ -284,8 +284,8 @@ body {
 #main-nav .nav a:active,
 #main-nav .nav a:hover{
     padding:0px 10px;
-    font-size:18px;
-    line-height:54px;
+    font-size:1.3em;
+    line-height:70px;
     font-weight:400;
     background:transparent;
     color:#fff;
@@ -301,7 +301,7 @@ body {
 
 #main-nav li{
     background:transparent;
-    margin:0 10px;
+    margin:0 8px;
     border:2px solid transparent;
 }
 
